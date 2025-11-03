@@ -53,8 +53,8 @@ const CancellationRefundPolicy = () => {
         <ul>
           <li>
             Email:{" "}
-            <a href="mailto:support@clynix.com" className="text-decoration-none">
-              support@clynix.com
+            <a href="mailto:simcurarx@gmail.com" className="text-decoration-none">
+              simcurarx@gmail.com
             </a>
           </li>
           <li>
@@ -84,8 +84,8 @@ const CancellationRefundPolicy = () => {
         <ul>
           <li>
             Email:{" "}
-            <a href="mailto:support@clynix.com" className="text-decoration-none">
-              support@clynix.com
+            <a href="mailto:simcurarx@gmail.com" className="text-decoration-none">
+              simcurarx@gmail.com
             </a>
           </li>
           <li>

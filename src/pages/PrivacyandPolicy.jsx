@@ -130,12 +130,12 @@ const PrivacyAndPolicy = () => {
                   <p className="mb-0">
                     To request data deletion or account removal, contact us at:{" "}
                     <a
-                      href="https://mail.google.com/mail/?view=cm&fs=1&to=support@clynix.com&su=Account%20Privacy%20Request"
+                      href="https://mail.google.com/mail/?view=cm&fs=1&to=simcurarx@gmail.com&su=Account%20Privacy%20Request"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="fw-semibold text-decoration-none"
                     >
-                      support@clynix.com
+                      simcurarx@gmail.com
                     </a>
                   </p>
                 </div>
@@ -196,12 +196,12 @@ const PrivacyAndPolicy = () => {
                 <p className="mb-0">
                   For questions, feedback, or privacy concerns, contact our support team at:{" "}
                   <a
-                    href="https://mail.google.com/mail/?view=cm&fs=1&to=support@clynix.com&su=Hello%20Clynix"
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=simcurarx@gmail.com&su=Hello%20Clynix"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="fw-semibold text-decoration-none"
                   >
-                    support@clynix.com
+                    simcurarx@gmail.com
                   </a>
                 </p>
               </div>

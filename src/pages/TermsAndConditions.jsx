@@ -168,12 +168,12 @@ const TermsandConditions = () => {
                     For questions or concerns, please contact our support team
                     at:{" "}
                     <a
-                      href="https://mail.google.com/mail/?view=cm&fs=1&to=support@clynix.com&su=Regarding%20Terms&body=Hello%20Clynix%20Team,"
+                      href="https://mail.google.com/mail/?view=cm&fs=1&to=simcurarx@gmail.com&su=Regarding%20Terms&body=Hello%20Clynix%20Team,"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="fw-semibold text-decoration-none"
                     >
-                      support@clynix.com
+                      simcurarx@gmail.com
                     </a>
                   </p>
                 </div>
