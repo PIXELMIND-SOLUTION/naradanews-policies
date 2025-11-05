@@ -11,7 +11,7 @@ const TermsandConditions = () => {
               Terms and Conditions
             </h1>
             <p className="text-muted">
-              Last updated: {new Date().toLocaleDateString()}
+              Last updated: 05/11/2025
             </p>
             <div
               className="divider mx-auto bg-gradient-primary"
@@ -257,7 +257,7 @@ const TermsandConditions = () => {
                       simcurarx@gmail.com
                     </a>
                   </li>
-                  <li>📞 Phone: +91-XXXXXXXXXX</li>
+                  <li>📞 Phone: +91-7013914488</li>
                 </ul>
               </div>
             </div>

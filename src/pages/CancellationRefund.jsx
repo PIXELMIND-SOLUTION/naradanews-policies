@@ -6,7 +6,7 @@ const CancellationRefundPolicy = () => {
       {/* Header */}
       <div className="text-center mb-4">
         <h1 className="fw-bold">Cancellation & Refund Policy</h1>
-        <p className="text-muted">Last updated: {new Date().toLocaleDateString()}</p>
+        <p className="text-muted">Last updated: o5/11/2025</p>
       </div>
 
       {/* Section 1 */}
@@ -31,7 +31,7 @@ const CancellationRefundPolicy = () => {
         <ul>
           <li>
             Approved refunds will be credited to the original payment method within 
-            <strong> 7–10 business days</strong>.
+            <strong> within 7 business days</strong>.
           </li>
           <li>
             In case of payment failure or duplicate transactions, contact our support team 
@@ -96,7 +96,7 @@ const CancellationRefundPolicy = () => {
               rel="noopener noreferrer"
               className="text-decoration-none"
             >
-              www.clynix.com
+              https://clynix.vercel.app/
             </a>
           </li>
         </ul>

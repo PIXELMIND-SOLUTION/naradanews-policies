@@ -8,7 +8,7 @@ const PrivacyAndPolicy = () => {
           {/* Header Section */}
           <div className="text-center mb-5">
             <h1 className="display-4 fw-bold text-primary mb-3">Privacy Policy</h1>
-            <p className="text-muted">Effective Date: {new Date().toLocaleDateString()}</p>
+            <p className="text-muted">Effective Date: 05/11/2025</p>
             <div
               className="divider mx-auto bg-gradient-primary"
               style={{ width: "80px", height: "4px", borderRadius: "2px" }}
@@ -234,8 +234,8 @@ const PrivacyAndPolicy = () => {
                       simcurarx@gmail.com
                     </a>
                   </li>
-                  <li>📞 Phone: +91-XXXXXXXXXX</li>
-                  <li>🏢 Address: Chennai, India</li>
+                  <li>📞 Phone: +91-7013914488</li>
+                  <li>🏢 Address: Madhavapatnam, India</li>
                 </ul>
               </div>
             </div>
