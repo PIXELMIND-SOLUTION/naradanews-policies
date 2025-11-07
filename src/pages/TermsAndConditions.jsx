@@ -9,7 +9,7 @@ const TermsAndConditions = () => {
             <h1 className="display-4 fw-bold text-primary mb-3">
               Terms and Conditions
             </h1>
-            <p className="text-muted">Last updated: November 07, 2025</p>
+            <p className="text-muted">Last updated: {new Date().toLocaleDateString("en-GB")}</p>
             <div
               className="divider mx-auto bg-gradient-primary"
               style={{ width: "80px", height: "4px", borderRadius: "2px" }}
