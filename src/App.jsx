@@ -1,9 +1,9 @@
 import './App.css'
 import { Routes, Route} from 'react-router-dom';
 import Home from './pages/Home'
-import PrivacyAndPolicy from './pages/PrivacyandPolicy'
-import TermsandConditions from './pages/TermsAndConditions'
-import CancellationRefundPolicy from './pages/CancellationRefund';
+import ContactUs from './pages/ContactUs';
+import PrivacyPolicy from './pages/PrivacyandPolicy';
+import TermsAndConditions from './pages/TermsAndConditions';
 
 function App() {
 
@@ -12,9 +12,9 @@ function App() {
     <>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/privacy-and-policy' element={<PrivacyAndPolicy />} />
-        <Route path='/terms-and-conditions' element={<TermsandConditions />} />
-        <Route path='/cancel-refund' element={<CancellationRefundPolicy />} />
+        <Route path='/privacy-and-policy' element={<PrivacyPolicy />} />
+        <Route path='/terms-and-conditions' element={<TermsAndConditions />} />
+        <Route path='/support' element={<ContactUs />} />
       </Routes>
     </>
   )

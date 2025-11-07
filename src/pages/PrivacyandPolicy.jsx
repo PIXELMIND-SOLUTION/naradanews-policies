@@ -1,21 +1,19 @@
 import React from "react";
 
-const PrivacyAndPolicy = () => {
+const PrivacyPolicy = () => {
   return (
     <div className="container-fluid py-5">
       <div className="row justify-content-center">
         <div className="col-lg-10 col-md-11 col-12">
-          {/* Header Section */}
           <div className="text-center mb-5">
             <h1 className="display-4 fw-bold text-primary mb-3">Privacy Policy</h1>
-            <p className="text-muted">Effective Date: 05/11/2025</p>
+            <p className="text-muted">Effective Date: November 07, 2025</p>
             <div
               className="divider mx-auto bg-gradient-primary"
               style={{ width: "80px", height: "4px", borderRadius: "2px" }}
             ></div>
           </div>
 
-          {/* Policy Content */}
           <div className="privacy-content">
             {/* 1. Introduction */}
             <div className="policy-card card border-0 shadow-sm mb-4">
@@ -25,13 +23,10 @@ const PrivacyAndPolicy = () => {
                   Introduction
                 </h4>
                 <p>
-                  <strong>Clynix</strong> (“we”, “our”, “us”) operates the Clynix mobile application
-                  (“the App”). This Privacy Policy explains how we collect, use, disclose, and
-                  safeguard your personal information when you use our app and related services.
+                  <strong>Narada News</strong> (“we”, “our”, “us”) operates the Narada News mobile application (“the App”). This Privacy Policy outlines how we collect, use, disclose, and protect your personal information when you access our news content, create a profile, or interact with our services.
                 </p>
                 <p>
-                  By using our App, you agree to the collection and use of information in accordance
-                  with this policy.
+                  By using our App, you consent to the practices described in this policy.
                 </p>
               </div>
             </div>
@@ -44,23 +39,25 @@ const PrivacyAndPolicy = () => {
                   Information We Collect
                 </h4>
 
-                <h6 className="fw-semibold mt-3">a. Personal Information</h6>
+                <h6 className="fw-semibold mt-3">a. Account & Profile Information</h6>
                 <ul className="list-styled">
                   <li>Full name</li>
-                  <li>Mobile number (for OTP verification and login)</li>
-                  <li>Address (for medicine delivery)</li>
-                  <li>Location data (for delivery tracking and nearby pharmacy detection)</li>
+                  <li>Mobile number (for OTP verification)</li>
+                  <li>Email address</li>
+                  <li>Profile picture</li>
+                  <li>City, State, and Address</li>
                 </ul>
 
-                <h6 className="fw-semibold mt-3">b. Device and Usage Data</h6>
+                <h6 className="fw-semibold mt-3">b. Device & Usage Data</h6>
                 <ul className="list-styled">
-                  <li>Device model, operating system version</li>
-                  <li>App usage analytics (to improve experience)</li>
+                  <li>Device model, OS version</li>
+                  <li>IP address and browser type (if accessed via web)</li>
+                  <li>App interaction data (e.g., articles read, videos watched, shares, downloads)</li>
                 </ul>
 
-                <h6 className="fw-semibold mt-3">c. Uploaded Files</h6>
+                <h6 className="fw-semibold mt-3">c. Content Interactions</h6>
                 <ul className="list-styled">
-                  <li>Prescription images or medicine photos (if uploaded by you)</li>
+                  <li>News articles, videos, and posters you view, share, or download</li>
                 </ul>
               </div>
             </div>
@@ -73,35 +70,32 @@ const PrivacyAndPolicy = () => {
                   How We Use Your Information
                 </h4>
                 <ul className="list-styled">
-                  <li>To verify your identity via OTP verification</li>
-                  <li>To process and deliver your medicine orders through partner pharmacies</li>
-                  <li>To provide customer support and service updates</li>
-                  <li>To enhance user experience and optimize delivery performance</li>
-                  <li>To comply with applicable legal requirements</li>
+                  <li>To authenticate your identity via OTP</li>
+                  <li>To personalize your news feed based on your location and interests</li>
+                  <li>To enable sharing, downloading, and saving of content</li>
+                  <li>To improve app performance and user experience</li>
+                  <li>To send service-related notifications (e.g., updates, policy changes)</li>
                 </ul>
                 <p className="mt-3">
-                  We <strong>do not sell</strong> or rent your personal data to any third parties.
+                  We <strong>do not sell</strong> your personal data to third parties.
                 </p>
               </div>
             </div>
 
-            {/* 4. Information Sharing and Disclosure */}
+            {/* 4. Information Sharing */}
             <div className="policy-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
                   <span className="number-badge me-3">4</span>
-                  Information Sharing and Disclosure
+                  Information Sharing
                 </h4>
-                <p>We may share your information only with the following entities:</p>
+                <p>We may share data only with:</p>
                 <ul className="list-styled">
-                  <li>Licensed pharmacy partners – to fulfill your medicine orders</li>
-                  <li>Authorized delivery personnel – to ensure accurate and timely delivery</li>
-                  <li>Payment gateways (e.g., Razorpay) – for secure transaction processing</li>
-                  <li>Service providers – for app hosting, notifications, and analytics</li>
+                  <li>Cloud and analytics providers (e.g., Firebase, Google Analytics) for app functionality</li>
+                  <li>OTP service providers for mobile verification</li>
                 </ul>
                 <p className="mt-3">
-                  All our partners and service providers are bound by strict confidentiality
-                  agreements.
+                  All partners are contractually obligated to maintain confidentiality.
                 </p>
               </div>
             </div>
@@ -114,22 +108,20 @@ const PrivacyAndPolicy = () => {
                   Data Security
                 </h4>
                 <p>
-                  We implement robust technical and organizational security measures to protect your
-                  data from unauthorized access, misuse, or loss. These include:
+                  We implement industry-standard security measures including:
                 </p>
                 <ul className="list-styled">
-                  {/* <li>Secure HTTPS communication</li> */}
-                  <li>Encryption of sensitive personal and transactional data</li>
-                  <li>Regular security audits and compliance with data safety standards</li>
+                  <li>End-to-end encryption for OTP and profile data</li>
+                  <li>Secure cloud storage with access controls</li>
+                  <li>Regular security assessments</li>
                 </ul>
                 <p className="mt-3">
-                  However, no method of online transmission is entirely secure. While we strive to
-                  protect your information, we cannot guarantee absolute security.
+                  While we strive to protect your data, no digital transmission is 100% secure.
                 </p>
               </div>
             </div>
 
-            {/* 6. Your Rights and Choices */}
+            {/* 6. Your Rights */}
             <div className="policy-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
@@ -137,18 +129,18 @@ const PrivacyAndPolicy = () => {
                   Your Rights and Choices
                 </h4>
                 <ul className="list-styled">
-                  <li>Access or update your personal information anytime</li>
-                  <li>You can deletion your Account Anytime</li>
-                  <li>Withdraw consent for data collection (subject to service limitations)</li>
+                  <li>Access, edit, or delete your profile anytime</li>
+                  <li>Withdraw consent for data processing</li>
+                  <li>Request permanent account deletion</li>
                 </ul>
                 <div className="mt-3 p-3 bg-light rounded">
                   <p className="mb-0">
-                    To request data removal, email us at:{" "}
+                    Email us at:{" "}
                     <a
-                      href="mailto:simcurarx@gmail.com?subject=Account%20Deletion%20Request"
+                      href="mailto:contact@naradanews.com?subject=Account%20Deletion%20Request"
                       className="fw-semibold text-decoration-none"
                     >
-                      simcurarx@gmail.com
+                      contact@naradanews.com
                     </a>
                   </p>
                 </div>
@@ -163,79 +155,36 @@ const PrivacyAndPolicy = () => {
                   Children’s Privacy
                 </h4>
                 <p>
-                  Clynix is intended for users aged 18 and above. We do not knowingly collect
-                  information from minors. If such data is detected, it will be permanently deleted.
+                  Narada News is not intended for users under 13. We do not knowingly collect data from children. If discovered, such data will be deleted immediately.
                 </p>
               </div>
             </div>
 
-            {/* 8. Third-Party Services */}
+            {/* 8. Policy Updates */}
             <div className="policy-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
                   <span className="number-badge me-3">8</span>
-                  Third-Party Services
+                  Updates to This Policy
                 </h4>
                 <p>
-                  Our app may include integrations with third-party services (e.g., payment
-                  gateways, pharmacy systems). We are not responsible for their privacy practices.
-                  Please review their individual privacy policies for more details.
+                  We may update this policy periodically. The effective date will be revised, and continued use implies acceptance.
                 </p>
               </div>
             </div>
 
-            {/* 9. Disclaimer */}
+            {/* 9. Contact Us */}
             <div className="policy-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
                   <span className="number-badge me-3">9</span>
-                  Disclaimer
-                </h4>
-                <p>
-                  Clynix is not a pharmacy and does not directly sell or distribute medicines. All
-                  orders are processed and fulfilled by duly licensed pharmacy partners in
-                  compliance with applicable laws.
-                </p>
-              </div>
-            </div>
-
-            {/* 10. Policy Updates */}
-            <div className="policy-card card border-0 shadow-sm mb-4">
-              <div className="card-body p-4">
-                <h4 className="mb-3 d-flex align-items-center">
-                  <span className="number-badge me-3">10</span>
-                  Updates to This Privacy Policy
-                </h4>
-                <p>
-                  We may update this Privacy Policy periodically. Changes will be reflected here
-                  with an updated “Effective Date.” Continued use of our services implies your
-                  acceptance of any updates.
-                </p>
-              </div>
-            </div>
-
-            {/* 11. Contact Us */}
-            <div className="policy-card card border-0 shadow-sm mb-4">
-              <div className="card-body p-4">
-                <h4 className="mb-3 d-flex align-items-center">
-                  <span className="number-badge me-3">11</span>
                   Contact Us
                 </h4>
-                <p>
-                  For any privacy-related concerns or inquiries, please contact us:
-                </p>
+                <p>For privacy inquiries:</p>
                 <ul className="list-styled">
-                  <li>
-                    📧 Email:{" "}
-                    <a
-                      href="mailto:simcurarx@gmail.com?subject=Hello%20Clynix"
-                      className="fw-semibold text-decoration-none"
-                    >
-                      simcurarx@gmail.com
-                    </a>
-                  </li>
-                  <li>📞 Phone: +91-7013914488</li>
-                  <li>🏢 Address: Madhavapatnam, India</li>
+                  <li>📧 Email: <a href="mailto:contact@naradanews.com" className="fw-semibold text-decoration-none">contact@naradanews.com</a></li>
+                  <li>📞 Phone: +91-9876543210</li>
+                  <li>🏢 Address: Narada Media Pvt. Ltd., Hyderabad, Telangana, India</li>
                 </ul>
               </div>
             </div>
@@ -243,7 +192,6 @@ const PrivacyAndPolicy = () => {
         </div>
       </div>
 
-      {/* Styles */}
       <style jsx>{`
         .number-badge {
           display: inline-flex;
@@ -257,19 +205,16 @@ const PrivacyAndPolicy = () => {
           font-size: 16px;
           font-weight: 600;
         }
-
         .list-styled {
           list-style: none;
           padding-left: 0;
           margin-bottom: 0;
         }
-
         .list-styled li {
           position: relative;
           padding-left: 1.5rem;
           margin-bottom: 0.5rem;
         }
-
         .list-styled li:before {
           content: "•";
           color: #0d6efd;
@@ -277,49 +222,28 @@ const PrivacyAndPolicy = () => {
           position: absolute;
           left: 0.5rem;
         }
-
         .policy-card {
           transition: transform 0.3s ease, box-shadow 0.3s ease;
           border-left: 4px solid #0d6efd !important;
         }
-
         .policy-card:hover {
           transform: translateY(-5px);
           box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1) !important;
         }
-
         .bg-gradient-primary {
           background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
         }
-
         @media (max-width: 768px) {
-          .display-4 {
-            font-size: 2.2rem;
-          }
-          .card-body {
-            padding: 1.5rem !important;
-          }
-          .policy-card {
-            border-left: 3px solid #0d6efd !important;
-          }
+          .display-4 { font-size: 2.2rem; }
+          .card-body { padding: 1.5rem !important; }
         }
-
         @media (max-width: 576px) {
-          .display-4 {
-            font-size: 1.8rem;
-          }
-          .card-body {
-            padding: 1.25rem !important;
-          }
-          .number-badge {
-            width: 28px;
-            height: 28px;
-            font-size: 14px;
-          }
+          .display-4 { font-size: 1.8rem; }
+          .number-badge { width: 28px; height: 28px; font-size: 14px; }
         }
       `}</style>
     </div>
   );
 };
 
-export default PrivacyAndPolicy;
+export default PrivacyPolicy;
