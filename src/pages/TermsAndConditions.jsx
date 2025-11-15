@@ -17,7 +17,7 @@ const TermsAndConditions = () => {
           </div>
 
           <p className="lead text-center mb-5">
-            Welcome to <strong className="text-primary">Narada News</strong>. By using our app, you agree to these Terms. Please read them carefully.
+            Welcome to <strong className="text-primary">Darshadwajam News</strong>. By using our app, you agree to these Terms. Please read them carefully.
           </p>
 
           <div className="terms-content">
@@ -29,7 +29,7 @@ const TermsAndConditions = () => {
                   Acceptance of Terms
                 </h4>
                 <p>
-                  Accessing or using the Narada News App constitutes your acceptance of these Terms. If you disagree, please discontinue use.
+                  Accessing or using the Darshadwajam News App constitutes your acceptance of these Terms. If you disagree, please discontinue use.
                 </p>
               </div>
             </div>
@@ -58,7 +58,7 @@ const TermsAndConditions = () => {
                 </h4>
                 <ul className="list-styled">
                   <li>We grant you a limited, non-exclusive license to view, share, and download news content for personal, non-commercial use.</li>
-                  <li>All content is owned by Narada News or its licensors.</li>
+                  <li>All content is owned by Darshadwajam News or its licensors.</li>
                   <li>Unauthorized redistribution or commercial use is prohibited.</li>
                 </ul>
               </div>
@@ -103,7 +103,7 @@ const TermsAndConditions = () => {
                   Limitation of Liability
                 </h4>
                 <p>
-                  To the fullest extent permitted by law, Narada News shall not be liable for any indirect, incidental, or consequential damages arising from your use of the app.
+                  To the fullest extent permitted by law, Darshadwajam News shall not be liable for any indirect, incidental, or consequential damages arising from your use of the app.
                 </p>
               </div>
             </div>
@@ -155,7 +155,7 @@ const TermsAndConditions = () => {
                   Contact Us
                 </h4>
                 <ul className="list-styled">
-                  <li>📧 Email: <a href="mailto:contact@naradanews.com" className="fw-semibold text-decoration-none">contact@naradanews.com</a></li>
+                  <li>📧 Email: <a href="mailto:contact@Darshadwajamnews.com" className="fw-semibold text-decoration-none">contact@Darshadwajamnews.com</a></li>
                   <li>📞 Phone: +91-9876543210</li>
                 </ul>
               </div>

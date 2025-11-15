@@ -25,8 +25,8 @@ const PrivacyPolicy = () => {
                   Introduction
                 </h4>
                 <p>
-                  <strong>Narada News</strong> (“we”, “our”, “us”) operates the
-                  Narada News mobile application (“the App”). This Privacy Policy
+                  <strong>Darshadwajam News</strong> (“we”, “our”, “us”) operates the
+                  Darshadwajam News mobile application (“the App”). This Privacy Policy
                   outlines how we collect, use, disclose, and protect your personal
                   information when you access our news content, create a profile, or
                   interact with our services.
@@ -168,10 +168,10 @@ const PrivacyPolicy = () => {
                   <p className="mb-0">
                     Email us at:{" "}
                     <a
-                      href="mailto:contact@naradanews.com?subject=Account%20Deletion%20Request"
+                      href="mailto:contact@Darshadwajamnews.com?subject=Account%20Deletion%20Request"
                       className="fw-semibold text-decoration-none"
                     >
-                      contact@naradanews.com
+                      contact@Darshadwajamnews.com
                     </a>
                   </p>
                 </div>
@@ -186,7 +186,7 @@ const PrivacyPolicy = () => {
                   Children’s Privacy
                 </h4>
                 <p>
-                  Narada News is not intended for users under 13. We do not
+                  Darshadwajam News is not intended for users under 13. We do not
                   knowingly collect data from children. If discovered, such data
                   will be deleted immediately.
                 </p>
@@ -219,15 +219,15 @@ const PrivacyPolicy = () => {
                   <li>
                     📧 Email:{" "}
                     <a
-                      href="mailto:contact@naradanews.com"
+                      href="mailto:contact@Darshadwajamnews.com"
                       className="fw-semibold text-decoration-none"
                     >
-                      contact@naradanews.com
+                      contact@Darshadwajamnews.com
                     </a>
                   </li>
                   <li>📞 Phone: +91-9876543210</li>
                   <li>
-                    🏢 Address: Narada Media Pvt. Ltd., Hyderabad, Telangana, India
+                    🏢 Address: Darshadwajam Media Pvt. Ltd., Hyderabad, Telangana, India
                   </li>
                 </ul>
               </div>

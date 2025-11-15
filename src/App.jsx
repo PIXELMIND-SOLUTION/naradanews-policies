@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import ContactUs from './pages/ContactUs';
 import PrivacyPolicy from './pages/PrivacyandPolicy';
 import TermsAndConditions from './pages/TermsAndConditions';
+import RefundPolicy from './pages/RefundPolicy';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/privacy-and-policy' element={<PrivacyPolicy />} />
         <Route path='/terms-and-conditions' element={<TermsAndConditions />} />
+        <Route path='/refundpolicy' element={<RefundPolicy />} />
         <Route path='/support' element={<ContactUs />} />
       </Routes>
     </>

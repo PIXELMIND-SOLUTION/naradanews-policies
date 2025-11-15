@@ -8,9 +8,9 @@ const ContactUs = () => {
           {/* App Header */}
           <div className="mb-5">
             <div className="d-flex justify-content-center mb-3">
-              <img src="/logo.png" alt="Narada News Logo" width="80" height="80" />
+              <img src="/logo.png" alt="Darshadwajam News Logo" width="80" height="80" />
             </div>
-            <h1 className="display-5 fw-bold text-primary">Narada News</h1>
+            <h1 className="display-5 fw-bold text-primary">Darshadwajam News</h1>
             <p className="text-muted">Stay Informed. Stay Connected.</p>
             <div
               className="divider mx-auto bg-gradient-primary"
