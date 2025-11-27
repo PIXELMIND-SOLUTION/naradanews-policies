@@ -98,10 +98,10 @@ const RefundPolicy = () => {
                   <p className="mb-0">
                     Email:{" "}
                     <a
-                      href="mailto:contact@Darshadwajamnews.com?subject=Refund%20Request"
+                      href="mailto:contact@darshadwajamnews.com?subject=Refund%20Request"
                       className="fw-semibold text-decoration-none"
                     >
-                      contact@Darshadwajamnews.com
+                      contact@darshadwajamnews.com
                     </a>
                   </p>
                 </div>
@@ -155,15 +155,15 @@ const RefundPolicy = () => {
                   <li>
                     📧 Email:{" "}
                     <a
-                      href="mailto:contact@Darshadwajamnews.com"
+                      href="mailto:contact@darshadwajamnews.com"
                       className="fw-semibold text-decoration-none"
                     >
-                      contact@Darshadwajamnews.com
+                      contact@darshadwajamnews.com
                     </a>
                   </li>
                   <li>📞 Phone: +91-9876543210</li>
                   <li>
-                    🏢 Address: Darshadwajam Media Pvt. Ltd., Hyderabad, Telangana, India
+                    🏢 Address: Plot No.306, Smitha Towers, Shyam Nagar, Vijayawada, Andhra Pradesh
                   </li>
                 </ul>
               </div>

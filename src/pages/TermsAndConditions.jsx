@@ -155,7 +155,7 @@ const TermsAndConditions = () => {
                   Contact Us
                 </h4>
                 <ul className="list-styled">
-                  <li>📧 Email: <a href="mailto:contact@Darshadwajamnews.com" className="fw-semibold text-decoration-none">contact@Darshadwajamnews.com</a></li>
+                  <li>📧 Email: <a href="mailto:contact@darshadwajamnews.com" className="fw-semibold text-decoration-none">contact@darshadwajamnews.com</a></li>
                   <li>📞 Phone: +91-9876543210</li>
                 </ul>
               </div>

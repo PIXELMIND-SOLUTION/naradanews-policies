@@ -37,7 +37,7 @@ const ContactUs = () => {
                     <i className="fas fa-envelope text-primary fs-4"></i>
                   </div>
                   <h5 className="fw-bold">Email</h5>
-                  <p className="text-muted">support@digitalraiz.com</p>
+                  <p className="text-muted">contact@darshadwajamnews.com</p>
                 </div>
               </div>
 
@@ -48,7 +48,7 @@ const ContactUs = () => {
                   </div>
                   <h5 className="fw-bold">Location</h5>
                   <p className="text-muted">
-                    123, Main Street, Vijayawada, Andhra Pradesh
+                    Plot No.306, Smitha Towers, Shyam Nagar, Vijayawada, Andhra Pradesh
                   </p>
                 </div>
               </div>
