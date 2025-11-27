@@ -162,9 +162,9 @@ const RefundPolicy = () => {
                     </a>
                   </li>
                   <li>📞 Phone: +91-9876543210</li>
-                  <li>
+                  {/* <li>
                     🏢 Address: Plot No.306, Smitha Towers, Shyam Nagar, Vijayawada, Andhra Pradesh
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

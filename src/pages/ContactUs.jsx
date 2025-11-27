@@ -41,7 +41,7 @@ const ContactUs = () => {
                 </div>
               </div>
 
-              <div className="col-md-4">
+              {/* <div className="col-md-4">
                 <div className="d-flex flex-column align-items-center text-center">
                   <div className="icon-circle bg-light-primary mb-3">
                     <i className="fas fa-map-marker-alt text-primary fs-4"></i>
@@ -51,7 +51,7 @@ const ContactUs = () => {
                     Plot No.306, Smitha Towers, Shyam Nagar, Vijayawada, Andhra Pradesh
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 
