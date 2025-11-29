@@ -42,7 +42,7 @@ const TermsAndConditions = () => {
                   Account Registration
                 </h4>
                 <ul className="list-styled">
-                  <li>You must be at least 13 years old.</li>
+                  <li>You must be at least 18 years old.</li>
                   <li>Provide accurate mobile number for OTP verification.</li>
                   <li>You are responsible for maintaining account security.</li>
                 </ul>
